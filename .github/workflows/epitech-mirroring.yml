@@ -43,12 +43,3 @@ jobs:
       run: |
         cd wiki;
         git push --mirror "git@github.com:${{ vars.MIRROR_REPO }}.wiki.git";
-        # If wiki has not been initialized
-        if [ $? -ne 0 ]; then
-          # Init wiki repository
-          gh api --method POST /repos/${{ vars.MIRROR_REPO }}/pages   \
-            -f title='Home'                                           \
-            -f content='Initial Wiki Page';
-          # Mirror wiki
-          git push --mirror git@github.com:${{ vars.MIRROR_REPO }}.wiki.git;
-        fi
