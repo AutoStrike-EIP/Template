@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   pull_request:
@@ -14,13 +14,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # - name: Install Rust
-      #   uses: actions-rs/toolchain@v1
+      # - name: Install dependencies
       #   with:
       #     toolchain: stable
 
-      # - name: Build
-      #   run: cargo build --workspace
+      # - name: Run linter
+      #   run: ...
 
-      # - name: Clippy
-      #   run: cargo clippy -- -D warnings
+      # - name: Build project
+      #   run: ...
+
+      # - name: Run tests
+      #   run: ...
