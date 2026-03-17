@@ -1,8 +1,8 @@
 name: FEAT
-title: "[FEAT] "
-description: request a new feature here
-projects: "AutoStrike-EIP/3"
-labels: feature
+title: "[FEAT]"
+description: Request a new feature
+projects: "AutoStrike-EIP/5"
+labels: ["feature"]
 body:
   - type: textarea
     id: feature_description
@@ -27,11 +27,11 @@ body:
       label: Pre-submission checklist
       description: "Please ensure you have completed the following before submitting your feature request:"
       options:
-        - label: I have SET the apropriate label
+        - label: I have SET the appropriate label
           required: true
         - label: I have UNSET the issue tag
           required: true
-        - label: I have SET the rtype project
+        - label: I have SET the appropriate project
           required: true
         - label: I have SET the appropriate milestone
           required: true

@@ -1,8 +1,8 @@
 name: REFACTOR
-title: "[REFACTOR] "
-description: request a refactor here
-projects: "AutoStrike-EIP/3"
-labels: refactor
+title: "[REFACTOR]"
+description: Request a new refactor
+projects: "AutoStrike-EIP/5"
+labels: ["refactor"]
 body:
   - type: textarea
     id: refactor_description
@@ -25,13 +25,13 @@ body:
   - type: checkboxes
     attributes:
       label: Pre-submission checklist
-      description: "Please ensure you have completed the following before submitting your feature request:"
+      description: "Please ensure you have completed the following before submitting your refactor request:"
       options:
-        - label: I have SET the apropriate label
+        - label: I have SET the appropriate label
           required: true
         - label: I have UNSET the issue tag
           required: true
-        - label: I have SET the rtype project
+        - label: I have SET the appropriate project
           required: true
         - label: I have SET the appropriate milestone
           required: true
