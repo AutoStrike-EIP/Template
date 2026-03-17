@@ -15,7 +15,7 @@ env:
 jobs:
   push-to-mirror:
     name: Push to mirror
-    if: github.repository == ${{ env.CURRENT_REPO }} && github.event_name == 'push'
+    if: github.repository == env.CURRENT_REPO && github.event_name == 'push'
     runs-on: ubuntu-latest
     needs: run_tests
 
