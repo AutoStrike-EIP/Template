@@ -1,10 +1,13 @@
 name: Epitech Mirroring
 
 on:
+  # Runs on pushes on main or release-*
   push:
     branches:
       - "main"
       - "release-**"
+  # Runs on wiki updates
+  gollum:
 
 jobs:
   synchronize-repository:
@@ -26,7 +29,7 @@ jobs:
 
   synchronize-wiki:
     name: Synchronize Wiki
-    if: github.repository == vars.CURRENT_REPO && github.event_name == 'push'
+    if: github.repository == vars.CURRENT_REPO && github.event_name == 'gollum'
     runs-on: ubuntu-latest
 
     steps:
