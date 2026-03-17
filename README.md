@@ -20,8 +20,6 @@
 
 ## 🤔 **About the project**
 
-* <!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
-
 AutoStrike is a cyberattack simulation platform.
 
 Cyberattacks pose a growing threat to businesses, particularly small and medium-sized enterprises (SMEs), which often lack the necessary tools.
@@ -31,6 +29,10 @@ On the other hand, some companies are completely unprepared to deal with cyber r
 The primary goal of AutoStrike is to enable companies to test their defenses. Additionally, AutoStrike helps raise awareness among those less familiar with cybersecurity about the need to protect themselves.
 
 It is with this in mind that AutoStrike was created: Identify your vulnerabilities today so you can be invulnerable tomorrow.
+
+ <!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
+
+
 
 ## ⚡ **Installation**
 
