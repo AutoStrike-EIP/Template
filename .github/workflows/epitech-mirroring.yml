@@ -2,11 +2,9 @@ name: Epitech Mirroring
 
 on:
   push:
-    branches-ignore:
-      - "mirror-ignore-**"
-  pull_request:
-    branches-ignore:
-      - "mirror-ignore-**"
+    branches:
+      - "main"
+      - "release-**"
 
 jobs:
   push-to-mirror:
