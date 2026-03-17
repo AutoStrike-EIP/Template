@@ -1,18 +1,15 @@
-<!-- markdownlint-disable MD032 MD033-->
-<!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
 # 🔥 **AutoStrike**
 
 <div align="center">
-  <!-- Change your logo -->
-  <a href="https://github.com/AutoStrike-EIP/AutoStrike">
+  <a href="https://github.com/{{REPO_NAME}}">
     <img width="100%" src="/docs/assets/Autostrike%20complet_Bannière.svg" alt="@AutoStrike's banner">
   </a>
   <br>
-  <a href="https://github.com/AutoStrike-EIP/AutoStrike/issues">
-    <img src="https://img.shields.io/github/issues/AutoStrike-EIP/AutoStrike?color=0088ff&style=for-the-badge&logo=github" alt="AutoStrike's issues"/>
+  <a href="https://github.com/{{REPO_NAME}}/issues">
+    <img src="https://img.shields.io/github/issues/{{REPO_NAME}}?color=0088ff&style=for-the-badge&logo=github" alt="AutoStrike's issues"/>
   </a>
-  <a href="https://github.com/AutoStrike-EIP/AutoStrike/pulls">
-    <img src="https://img.shields.io/github/issues-pr/AutoStrike-EIP/AutoStrike?color=0088ff&style=for-the-badge&logo=github"  alt="AutoStrike's pull requests"/>
+  <a href="https://github.com/{{REPO_NAME}}/pulls">
+    <img src="https://img.shields.io/github/issues-pr/{{REPO_NAME}}?color=0088ff&style=for-the-badge&logo=github"  alt="AutoStrike's pull requests"/>
   </a>
 </div>
 
@@ -30,9 +27,7 @@ The primary goal of AutoStrike is to enable companies to test their defenses. Ad
 
 It is with this in mind that AutoStrike was created: Identify your vulnerabilities today so you can be invulnerable tomorrow.
 
- <!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
-
-
+<!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
 
 ## ⚡ **Installation**
 
@@ -54,7 +49,7 @@ It is with this in mind that AutoStrike was created: Identify your vulnerabiliti
 
 ## 📝 **Additional notes**
 
-* <!-- ... [ADD ADDITIONAL NOTES] -->
+You can find the project planning [here](https://github.com/orgs/AutoStrike-EIP/projects/5)
 
 ---
 
@@ -97,8 +92,6 @@ By contributing, you will help the development of this project, and *you will be
 [![GitHub forks](https://img.shields.io/github/forks/AutoStrike-EIP/AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/AutoStrike/network/members)
 <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=github-sponsors&color=red&style=social)](https://github.com/sponsors/AutoStrike-EIP)
-
-Enjoy! 😃
 
 ---
 

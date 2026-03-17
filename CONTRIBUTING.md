@@ -13,20 +13,17 @@ All contributions must adhere to a strict framework:
 ## Setup
 
 Clone the repository:
-
-git clone https://github.com/AutoStrike-EIP/AutoStrike.git
+```bash
+git clone https://github.com/{{REPO_NAME}}
 cd autostrike
-
-Build the project:
-
-cargo build --workspace
+```
 
 ---
 
 ## Guidelines
 
-- Idiomatic Rust code
-- Compliance with standards (rustfmt, clippy)
+- Idiomatic code
+- Compliance with standards
 - No unnecessary dependencies
 - Readable and documented code
 - No dangerous logic (no actual malicious execution)
@@ -37,41 +34,52 @@ cargo build --workspace
 
 1. Fork the repository
 2. Create a branch:
-
-git checkout -b feature/feature-name
-
+> ```bash
+> git checkout -b feature/feature-name
+> ```
 3. Development
 4. Clear commit message:
-
-git commit -m “feat: add new simulation module”
-
+> ```bash
+> # Message foramt: "type(scope): description"
+> # Example :
+> git commit -m "feat(module/simulation): add new simulation module"
+> ```
 5. Push:
-
-git push origin feature/feature-name
-
+> ```bash
+> git push origin feature/feature-name
+> ```
 6. Open a Pull Request
 
 ---
 
 ## Commit conventions
 
-Use explicit messages:
+Your commits should follow this format: `type(scope): desciption`
 
-- feat: new feature
-- fix: bug fix
-- refactor: improvement without functional changes
-- docs: documentation
-- chore: maintenance
+Here is the exhaustive list of the `type`:
+- `feat`: New feature
+- `fix`: Bug fix
+- `refactor`: Improvement without functional changes
+- `docs`: Documentation
+- `chore`: Maintenance
+
+Here is a non-exhaustive list of the `scope`:
+- `workflow/ci-cd.yml`
+- `simulation/port-scan`
+- `README.md`
+- *...*
+
+> [!NOTE]
+> Use explicit descriptions.
 
 ---
 
 ## Code Quality
 
-Before any PR:
-
-cargo fmt
-cargo clippy -- -D warnings
-cargo build
+Don't forget to run the linter before any PR:
+```bash
+*linter-cmd*
+```
 
 ---
 
