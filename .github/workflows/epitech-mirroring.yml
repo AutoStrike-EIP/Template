@@ -7,8 +7,8 @@ on:
       - "release-**"
 
 jobs:
-  push-to-mirror:
-    name: Push to mirror
+  synchronize-repository:
+    name: Synchronize Repository
     if: github.repository == vars.CURRENT_REPO && github.event_name == 'push'
     runs-on: ubuntu-latest
 
@@ -18,9 +18,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pushing to mirror repository...
+      - name: Synchronizing repository to mirror...
         uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url: ${{ vars.MIRROR_URL }}
           ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
 
+      - name: Synchronize wiki to mirror...
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: ${{ vars.MIRROR_WIKI }}
+          ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
