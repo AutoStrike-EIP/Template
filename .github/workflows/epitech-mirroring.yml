@@ -13,19 +13,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checking out repository...
+      - name: Checking out repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Synchronizing repository to mirror...
+      - name: Synchronizing repository to mirror
         uses: pixta-dev/repository-mirroring-action@v1
         with:
-          target_repo_url: ${{ vars.MIRROR_URL }}
+          target_repo_url: ${{ vars.MIRROR_REPO_URL }}
           ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
 
-      - name: Synchronize wiki to mirror...
-        uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url: ${{ vars.MIRROR_WIKI }}
-          ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
+  synchronize-wiki:
+    name: Synchronize Wiki
+    if: github.repository == vars.CURRENT_REPO && github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup SSH key
+      uses: webfactory/ssh-agent@v0.9.0
+      with:
+        ssh-private-key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
+
+    - name: Checkout wiki repository
+      run: |
+        git clone --mirror "git@github.com:${{ github.repository }}.wiki.git" wiki
+
+    - name: Synchronize wiki to mirror
+      run: |
+        cd wiki
+        git push --mirror ${{ vars.MIRROR_WIKI_URL }}
