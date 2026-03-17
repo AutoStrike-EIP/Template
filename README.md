@@ -1,18 +1,18 @@
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
-# 🔥 **AutoStrike-EIP/PoC-AutoStrike**
+# 🔥 **AutoStrike**
 
 <div align="center">
   <!-- Change your logo -->
-  <a href="https://github.com/AutoStrike-EIP/PoC-AutoStrike">
-    <img width="100%" src="https://i.imgur.com/SVvgxJF.png" alt="@AutoStrike-EIP/PoC-AutoStrike's logo">
+  <a href="https://github.com/AutoStrike-EIP/AutoStrike">
+    <img width="100%" src="/docs/assets/Autostrike%20complet_Bannière.svg" alt="@AutoStrike's banner">
   </a>
   <br>
-  <a href="https://github.com/AutoStrike-EIP/PoC-AutoStrike/issues">
-    <img src="https://img.shields.io/github/issues/AutoStrike-EIP/PoC-AutoStrike?color=0088ff&style=for-the-badge&logo=github" alt="AutoStrike-EIP/PoC-AutoStrike's issues"/>
+  <a href="https://github.com/AutoStrike-EIP/AutoStrike/issues">
+    <img src="https://img.shields.io/github/issues/AutoStrike-EIP/AutoStrike?color=0088ff&style=for-the-badge&logo=github" alt="AutoStrike's issues"/>
   </a>
-  <a href="https://github.com/AutoStrike-EIP/PoC-AutoStrike/pulls">
-    <img src="https://img.shields.io/github/issues-pr/AutoStrike-EIP/PoC-AutoStrike?color=0088ff&style=for-the-badge&logo=github"  alt="AutoStrike-EIP/PoC-AutoStrike's pull requests"/>
+  <a href="https://github.com/AutoStrike-EIP/AutoStrike/pulls">
+    <img src="https://img.shields.io/github/issues-pr/AutoStrike-EIP/AutoStrike?color=0088ff&style=for-the-badge&logo=github"  alt="AutoStrike's pull requests"/>
   </a>
 </div>
 
@@ -67,23 +67,19 @@ It is with this in mind that AutoStrike was created: Identify your vulnerabiliti
 ## 🍰 **Supporters and contributors**
 
 <!-- Change your small logo -->
-<a href="https://github.com/AutoStrike-EIP/PoC AutoStrike">
-  <img alt="@AutoStrike-EIP/PoC AutoStrike's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
+<a href="https://github.com/AutoStrike-EIP/AutoStrike">
+  <img alt="@AutoStrike-EIP/AutoStrike's brand logo without text" align="right" src="/docs/assets/Autostrike%20complet_Logo.svg" width="18%" />
 </a>
 
 We are currently looking for maintainers and contributors to help this project! ❤️
 
-By contributing, you will help the development of this project, and *you will be featured in this PoC-AutoStrike's README.md*, so everyone can see your kindness and visit your content ⭐.
+By contributing, you will help the development of this project, and *you will be featured in this AutoStrike's README.md*, so everyone can see your kindness and visit your content ⭐.
 
 <a href="https://github.com/sponsors/AutoStrike-EIP"> <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-  <img src="https://img.shields.io/badge/Sponsor-AutoStrike-EIP/PoC AutoStrike-blue?logo=github-sponsors&style=for-the-badge&color=red">
+  <img src="https://img.shields.io/badge/Sponsor-AutoStrike-EIP/AutoStrike-blue?logo=github-sponsors&style=for-the-badge&color=red">
 </a>
 
 <!-- LINK TO YOUR DONATING PAGES HERE -->
-
----
-
-PoC-AutoStrike was generated from *[Josee9988/project-template](https://github.com/Josee9988/project-template)* 📚
 
 ---
 
@@ -96,9 +92,9 @@ PoC-AutoStrike was generated from *[Josee9988/project-template](https://github.c
 ## 🎉 Was the tool helpful? Help us raise these numbers up
 
 [![GitHub followers](https://img.shields.io/github/followers/AutoStrike-EIP.svg?style=social)](https://github.com/AutoStrike-EIP)
-[![GitHub stars](https://img.shields.io/github/stars/AutoStrike-EIP/PoC-AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/PoC-AutoStrike/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/AutoStrike-EIP/PoC-AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/PoC-AutoStrike/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/AutoStrike-EIP/PoC-AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/PoC-AutoStrike/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/AutoStrike-EIP/AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/AutoStrike/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/AutoStrike-EIP/AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/AutoStrike/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/AutoStrike-EIP/AutoStrike.svg?style=social)](https://github.com/AutoStrike-EIP/AutoStrike/network/members)
 <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=github-sponsors&color=red&style=social)](https://github.com/sponsors/AutoStrike-EIP)
 
@@ -114,4 +110,4 @@ Watch the changes in the '**[CHANGELOG.md](CHANGELOG.md)**' file.
 
 ---
 
-_Made with a lot of ❤️❤️ by **[@AutoStrike-EIP](https://github.com/AutoStrike-EIP)**_
+_Made with ❤️ by **[@AutoStrike-EIP](https://github.com/AutoStrike-EIP)**_
