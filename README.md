@@ -71,7 +71,7 @@ We are currently looking for maintainers and contributors to help this project! 
 By contributing, you will help the development of this project, and *you will be featured in this AutoStrike's README.md*, so everyone can see your kindness and visit your content ⭐.
 
 <a href="https://github.com/sponsors/AutoStrike-EIP"> <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-  <img src="https://img.shields.io/badge/Sponsor-AutoStrike-EIP/AutoStrike-blue?logo=github-sponsors&style=for-the-badge&color=red">
+  <img src="https://img.shields.io/badge/Sponsor-AutoStrike-EIP/{{REPO_NAME}}-blue?logo=github-sponsors&style=for-the-badge&color=red">
 </a>
 
 <!-- LINK TO YOUR DONATING PAGES HERE -->

@@ -14,7 +14,7 @@ All contributions must adhere to a strict framework:
 
 Clone the repository:
 ```bash
-git clone https://github.com/{{REPO_NAME}}
+git clone https://github.com/AutoStrike-EIP/{{REPO_NAME}}
 cd autostrike
 ```
 
